@@ -3,7 +3,7 @@ import gspread
 from google.oauth2.service_account import Credentials
 
 # MongoDB connection
-MONGO_URI = "mongodb+srv://pandharkardeep35:D2e0e0p4@deep.pfmz7xz.mongodb.net/"
+MONGO_URI = "MONGO_LINK"
 DB_NAME = "SearchEngg"
 COLLECTION = "SearchEngg"
 
