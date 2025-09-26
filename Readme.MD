@@ -5,29 +5,19 @@ A lightweight search engine built from scratch in Java Spring Boot, leveraging B
 ## 🚀 Features
 
 - Document ingestion pipeline (e.g., from arXiv/feeds) into MongoDB
-
 - Inverted index construction with term frequencies, document frequencies, and avgdl
-
 - BM25 ranking for keyword search (with tunable k1 and b parameters)
-
 - Field weighting (e.g., title weighted higher than abstract)
-
 - Faceted search by author, year, and topic
-
 - RESTful APIs for ingestion, index rebuild, and search queries
-
 - Tested with JUnit + Testcontainers (MongoDB in Docker)
-
 - Swagger/OpenAPI documentation for easy API exploration
+- Google Looker Studio for monitoring and dashboarding
 
 ## 🛠️ Tech Stack
 
 - Backend: Java 17, Spring Boot 3.5.6
-
 - Database: MongoDB
-
 - Build: Maven
-
 - Testing: JUnit 5, Testcontainers
-
 - Other: Lombok, Jsoup, ROME (for feed parsing)
